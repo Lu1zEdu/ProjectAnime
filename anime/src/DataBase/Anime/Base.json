@@ -1,0 +1,54 @@
+{
+    "animes": [
+        {
+            "titulo": "Attack on Titan",
+            "ano": 2013,
+            "genero": [
+                "Ação",
+                "Fantasia",
+                "Drama"
+            ],
+            "descricao": "A história segue a luta da humanidade contra gigantes conhecidos como titãs."
+        },
+        {
+            "titulo": "My Hero Academia",
+            "ano": 2016,
+            "genero": [
+                "Ação",
+                "Aventura",
+                "Super-herói"
+            ],
+            "descricao": "Em um mundo onde quase todos têm superpoderes, um jovem sem habilidades luta para se tornar um herói."
+        },
+        {
+            "titulo": "Death Note",
+            "ano": 2006,
+            "genero": [
+                "Mistério",
+                "Suspense",
+                "Sobrenatural"
+            ],
+            "descricao": "Um estudante encontra um caderno que permite matar qualquer pessoa cujo nome seja escrito nele."
+        },
+        {
+            "titulo": "Demon Slayer",
+            "ano": 2019,
+            "genero": [
+                "Ação",
+                "Aventura",
+                "Fantasia"
+            ],
+            "descricao": "Um jovem se torna um caçador de demônios para vingar sua família e salvar sua irmã."
+        },
+        {
+            "titulo": "Fullmetal Alchemist: Brotherhood",
+            "ano": 2009,
+            "genero": [
+                "Ação",
+                "Aventura",
+                "Fantasia"
+            ],
+            "descricao": "Dois irmãos alquimistas buscam a Pedra Filosofal para recuperar seus corpos após um experimento falho."
+        }
+    ]
+}
