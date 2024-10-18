@@ -13,6 +13,12 @@ export default function Header1() {
                     <li><Link href="/News">News</Link></li>
                 </ul>
             </nav>
+            <nav>
+                <ul>
+                    <li><Link href="/Login">Login</Link></li>
+                    <li><Link href="/SingUp">SingUp</Link></li>
+                </ul>
+            </nav>
         </div>
     )
 }

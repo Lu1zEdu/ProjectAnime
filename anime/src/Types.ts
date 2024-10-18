@@ -1,4 +1,4 @@
-export interface Anime {
+export type Anime = {
     id: number;
     titulo: string;
     ano: number;
@@ -10,6 +10,13 @@ export interface Anime {
     Status: string;
 }
 
-export interface AnimeData {
+export type AnimeData =  {
     animes: Anime[];
+}
+export type User = {
+    id: number;
+    Name: string;
+    Email: string;
+    Password: string;
+    Animes: Anime[];
 }

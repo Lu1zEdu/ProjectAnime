@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "Rank": 1,
+        "Titulo": "Attack on Titan",
+        "Score": 9.5,
+        "Your_Score": 10,
+        "Status": "Completed"
+    },
+    {
+        "id": 2,
+        "Rank": 2,
+        "Titulo": "My Hero Academia",
+        "Score": 8.9,
+        "Your_Score": 9,
+        "Status": "On Going"
+    },
+    {
+        "id": 3,
+        "Rank": 3,
+        "Titulo": "Demon Slayer",
+        "Score": 9.2,
+        "Your_Score": 10,
+        "Status": "Completed"
+    },
+    {
+        "id": 4,
+        "Rank": 4,
+        "Titulo": "Fullmetal Alchemist: Brotherhood",
+        "Score": 9.6,
+        "Your_Score": 10,
+        "Status": "Completed"
+    },
+    {
+        "id": 5,
+        "Rank": 5,
+        "Titulo": "One Piece",
+        "Score": 8.7,
+        "Your_Score": 9,
+        "Status": "On Going"
+    },
+    {
+        "id": 6,
+        "Rank": 6,
+        "Titulo": "Steins;Gate",
+        "Score": 9.3,
+        "Your_Score": 10,
+        "Status": "Completed"
+    },
+    {
+        "id": 7,
+        "Rank": 7,
+        "Titulo": "Death Note",
+        "Score": 9.0,
+        "Your_Score": 10,
+        "Status": "Completed"
+    },
+    {
+        "id": 8,
+        "Rank": 8,
+        "Titulo": "Hunter x Hunter",
+        "Score": 9.1,
+        "Your_Score": 10,
+        "Status": "Completed"
+    },
+    {
+        "id": 9,
+        "Rank": 9,
+        "Titulo": "Sword Art Online",
+        "Score": 8.2,
+        "Your_Score": 8,
+        "Status": "Completed"
+    },
+    {
+        "id": 10,
+        "Rank": 10,
+        "Titulo": "Tokyo Ghoul",
+        "Score": 8.5,
+        "Your_Score": 9,
+        "Status": "Completed"
+    },
+    {
+        "id": 11,
+        "Rank": 11,
+        "Titulo": "Naruto",
+        "Score": 8.6,
+        "Your_Score": 9,
+        "Status": "Completed"
+    },
+    {
+        "id": 12,
+        "Rank": 12,
+        "Titulo": "One Punch Man",
+        "Score": 8.8,
+        "Your_Score": 9,
+        "Status": "Completed"
+    },
+    {
+        "id": 13,
+        "Rank": 13,
+        "Titulo": "Fairy Tail",
+        "Score": 8.3,
+        "Your_Score": 8,
+        "Status": "Completed"
+    },
+    {
+        "id": 14,
+        "Rank": 14,
+        "Titulo": "Mob Psycho 100",
+        "Score": 9.0,
+        "Your_Score": 10,
+        "Status": "Completed"
+    },
+    {
+        "id": 15,
+        "Rank": 15,
+        "Titulo": "Vinland Saga",
+        "Score": 9.4,
+        "Your_Score": 10,
+        "Status": "On Going"
+    }
+]
