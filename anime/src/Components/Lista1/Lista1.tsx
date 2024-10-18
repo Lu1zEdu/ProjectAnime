@@ -11,7 +11,7 @@ export default function Lista1() {
     useEffect(() => {
         const fetchAnimes = async () => {
             try {
-                const response = await fetch('http://localhost:3000/Api/anime');
+                const response = await fetch('http://localhost:3000/Api/animes');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
@@ -29,7 +29,7 @@ export default function Lista1() {
         return !!localStorage.getItem('user'); // Example: check local storage
     };
 
-    const handleYourScoreClick = (e) => {
+    const handleYourScoreClick = (e: { preventDefault: () => void; }) => {
         e.preventDefault(); // Prevent default link behavior
 
         if (isAuthenticated()) {

@@ -1,16 +1,42 @@
 [
-    {
-        "id": 1,
-        "name": "Alice",
-        "email": "alice@example.com",
-        "password": "password123",
-        "animes": []
-    },
-    {
-        "id": 2,
-        "name": "Bob",
-        "email": "bob@example.com",
-        "password": "password456",
-        "animes": []
-    }
+  {
+    "id": 1,
+    "name": "Alice",
+    "email": "alice@example.com",
+    "password": "password123",
+    "DataNascimento": "1980-02-03",
+    "animes": []
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "email": "bob@example.com",
+    "password": "password456",
+    "DataNascimento": "1990-01-01",
+    "animes": []
+  },
+  {
+    "id": 3,
+    "Name": "Merlim",
+    "Email": "Ledu64816@gmail.com",
+    "Password": "Teste123",
+    "DataNascimento": "2004-09-15T00:00:00.000Z",
+    "Animes": []
+  },
+  {
+    "id": 4,
+    "Name": "Erick",
+    "Email": "Erick@gmail.com",
+    "Password": "Teste123",
+    "DataNascimento": "2024-10-02T00:00:00.000Z",
+    "Animes": []
+  },
+  {
+    "id": 5,
+    "Name": "Luiz",
+    "Email": "Luiz@gmail.com",
+    "Password": "Teste1234",
+    "DataNascimento": "2024-10-08T00:00:00.000Z",
+    "Animes": []
+  }
 ]

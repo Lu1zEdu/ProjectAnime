@@ -1,6 +1,6 @@
 export type Anime = {
     id: number;
-    titulo: string;
+    Titulo: string;
     ano: number;
     genero: string[];
     descricao: string;
@@ -18,5 +18,6 @@ export type User = {
     Name: string;
     Email: string;
     Password: string;
+    DataNascimento: Date;
     Animes: Anime[];
 }
