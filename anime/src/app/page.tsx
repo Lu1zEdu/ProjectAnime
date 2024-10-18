@@ -1,3 +1,4 @@
+import Carousel1 from "@/Components/Carousel1/Carousel1";
 import Header1 from "@/Components/Header1/Header1";
 import Lista1 from "@/Components/Lista1/Lista1";
 
@@ -21,6 +22,7 @@ export default function Home() {
       </header>
       <main>
         <Lista1 />
+        <Carousel1 />
       </main>
     </div>
   );

@@ -8,9 +8,9 @@ export default function Header1() {
             </div>
             <nav className='ULi'>
                 <ul>
-                    <li><Link href="/Routes/Manga">Mangas</Link></li>
-                    <li><Link href="/Routes/Anime">Anime</Link></li>
-                    <li><Link href="/Routes/News">News</Link></li>
+                    <li><Link href="/Manga">Mangas</Link></li>
+                    <li><Link href="/Anime">Anime</Link></li>
+                    <li><Link href="/News">News</Link></li>
                 </ul>
             </nav>
         </div>

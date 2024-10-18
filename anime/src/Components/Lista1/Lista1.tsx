@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 export default function Lista1() {
     const Lista = [
@@ -26,8 +27,6 @@ export default function Lista1() {
             "Status": "Completed"
         }
     ]
-
-
     return (
         <div>
             <table>
@@ -46,7 +45,7 @@ export default function Lista1() {
                             <td>{number.Rank}</td>
                             <td>{number.Titulo}</td>
                             <td>{number.Score}</td>
-                            <td>{number.Your_Score}</td>
+                            <td><Link href="/Routes/YourArea">Your Score</Link></td>
                             <td>{number.Status}</td>
                         </tr>
                     ))}

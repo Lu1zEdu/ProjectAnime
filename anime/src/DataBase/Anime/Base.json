@@ -1,6 +1,7 @@
 {
     "animes": [
         {
+            "id": 1,
             "titulo": "Attack on Titan",
             "ano": 2013,
             "genero": [
@@ -8,9 +9,14 @@
                 "Fantasia",
                 "Drama"
             ],
-            "descricao": "A história segue a luta da humanidade contra gigantes conhecidos como titãs."
+            "descricao": "A história segue a luta da humanidade contra gigantes conhecidos como titãs.",
+            "Rank": 1,
+            "Score": 9.5,
+            "Your_Score": 10,
+            "Status": "Completed"
         },
         {
+            "id": 2,
             "titulo": "My Hero Academia",
             "ano": 2016,
             "genero": [
@@ -18,9 +24,14 @@
                 "Aventura",
                 "Super-herói"
             ],
-            "descricao": "Em um mundo onde quase todos têm superpoderes, um jovem sem habilidades luta para se tornar um herói."
+            "descricao": "Em um mundo onde quase todos têm superpoderes, um jovem sem habilidades luta para se tornar um herói.",
+            "Rank": 2,
+            "Score": 8.9,
+            "Your_Score": 9,
+            "Status": "On Going"
         },
         {
+            "id": 3,
             "titulo": "Death Note",
             "ano": 2006,
             "genero": [
@@ -28,9 +39,14 @@
                 "Suspense",
                 "Sobrenatural"
             ],
-            "descricao": "Um estudante encontra um caderno que permite matar qualquer pessoa cujo nome seja escrito nele."
+            "descricao": "Um estudante encontra um caderno que permite matar qualquer pessoa cujo nome seja escrito nele.",
+            "Rank": 4,
+            "Score": 9.8,
+            "Your_Score": 10,
+            "Status": "Completed"
         },
         {
+            "id": 4,
             "titulo": "Demon Slayer",
             "ano": 2019,
             "genero": [
@@ -38,9 +54,14 @@
                 "Aventura",
                 "Fantasia"
             ],
-            "descricao": "Um jovem se torna um caçador de demônios para vingar sua família e salvar sua irmã."
+            "descricao": "Um jovem se torna um caçador de demônios para vingar sua família e salvar sua irmã.",
+            "Rank": 3,
+            "Score": 9.2,
+            "Your_Score": 10,
+            "Status": "Completed"
         },
         {
+            "id": 5,
             "titulo": "Fullmetal Alchemist: Brotherhood",
             "ano": 2009,
             "genero": [
@@ -48,7 +69,11 @@
                 "Aventura",
                 "Fantasia"
             ],
-            "descricao": "Dois irmãos alquimistas buscam a Pedra Filosofal para recuperar seus corpos após um experimento falho."
+            "descricao": "Dois irmãos alquimistas buscam a Pedra Filosofal para recuperar seus corpos após um experimento falho.",
+            "Rank": 5,
+            "Score": 9.5,
+            "Your_Score": 10,
+            "Status": "Completed"
         }
     ]
 }
