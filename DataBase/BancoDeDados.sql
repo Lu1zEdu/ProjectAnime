@@ -1,0 +1,187 @@
+CREATE TABLE ANIME(
+    ID_ANIME NUMBER(6) CONSTRAINT PK_ANIME_ID PRIMARY KEY,
+    TITULO_ANIME VARCHAR(250) CONSTRAINT ANIME_TITULO NOT NULL,
+    RANK_ANIME NUMBER(3),
+    SCORE_ANIME FLOAT(1),
+    STATUS_ANIME CHAR(1)
+);
+
+CREATE TABLE USUARIO(
+    ID_USER NUMBER(6) CONSTRAINT PK_USER_ID PRIMARY KEY,
+    NOME VARCHAR(255) CONSTRAINT NN_NOME_USER NOT NULL,
+    EMAIL VARCHAR(255) CONSTRAINT NN_EMAIL_USER NOT NULL,
+    PASSWORD_USER VARCHAR(255) CONSTRAINT NN_PASSWORD_USER NOT NULL,
+    DTANASC DATE
+);
+
+CREATE TABLE SCOREANIME(
+    ID_ANIME REFERENCES ANIME,
+    ID_USER REFERENCES USUARIO,
+    SCOREUSER FLOAT(1) CONSTRAINT PK_SCOREUSER PRIMARY KEY
+);
+
+--
+
+INSERT INTO ANIME (
+    ID_ANIME,
+    TITULO_ANIME,
+    RANK_ANIME,
+    SCORE_ANIME,
+    STATUS_ANIME
+) VALUES (
+    1,
+    'Attack on Titan',
+    1,
+    9.5,
+    'A'
+);
+
+INSERT INTO ANIME (
+    ID_ANIME,
+    TITULO_ANIME,
+    RANK_ANIME,
+    SCORE_ANIME,
+    STATUS_ANIME
+) VALUES (
+    2,
+    'My Hero Academia',
+    2,
+    8.7,
+    'A'
+);
+
+INSERT INTO ANIME (
+    ID_ANIME,
+    TITULO_ANIME,
+    RANK_ANIME,
+    SCORE_ANIME,
+    STATUS_ANIME
+) VALUES (
+    3,
+    'Demon Slayer',
+    3,
+    9.3,
+    'A'
+);
+
+INSERT INTO ANIME (
+    ID_ANIME,
+    TITULO_ANIME,
+    RANK_ANIME,
+    SCORE_ANIME,
+    STATUS_ANIME
+) VALUES (
+    4,
+    'One Piece',
+    4,
+    8.5,
+    'A'
+);
+
+INSERT INTO ANIME (
+    ID_ANIME,
+    TITULO_ANIME,
+    RANK_ANIME,
+    SCORE_ANIME,
+    STATUS_ANIME
+) VALUES (
+    5,
+    'Death Note',
+    5,
+    9.0,
+    'A'
+);
+
+--
+
+INSERT INTO USUARIO (
+    ID_USER,
+    NOME,
+    EMAIL,
+    PASSWORD_USER,
+    DTANASC
+) VALUES (
+    1,
+    'João Silva',
+    'joao@email.com',
+    'senha123',
+    TO_DATE('2000-01-01', 'YYYY-MM-DD')
+);
+
+INSERT INTO USUARIO (
+    ID_USER,
+    NOME,
+    EMAIL,
+    PASSWORD_USER,
+    DTANASC
+) VALUES (
+    2,
+    'Maria Oliveira',
+    'maria@email.com',
+    'senha456',
+    TO_DATE('1998-05-15', 'YYYY-MM-DD')
+);
+
+INSERT INTO USUARIO (
+    ID_USER,
+    NOME,
+    EMAIL,
+    PASSWORD_USER,
+    DTANASC
+) VALUES (
+    3,
+    'Carlos Pereira',
+    'carlos@email.com',
+    'senha789',
+    TO_DATE('1995-10-30', 'YYYY-MM-DD')
+);
+
+INSERT INTO USUARIO (
+    ID_USER,
+    NOME,
+    EMAIL,
+    PASSWORD_USER,
+    DTANASC
+) VALUES (
+    4,
+    'Ana Santos',
+    'ana@email.com',
+    'senha321',
+    TO_DATE('1999-03-20', 'YYYY-MM-DD')
+);
+
+INSERT INTO USUARIO (
+    ID_USER,
+    NOME,
+    EMAIL,
+    PASSWORD_USER,
+    DTANASC
+) VALUES (
+    5,
+    'Lucas Almeida',
+    'lucas@email.com',
+    'senha654',
+    TO_DATE('2001-07-25', 'YYYY-MM-DD')
+);
+
+--
+
+INSERT INTO SCOREANIME (
+    ID_ANIME,
+    ID_USER,
+    SCOREUSER
+) VALUES (
+    1,
+    1,
+    10.0
+);
+
+INSERT INTO SCOREANIME (
+    ID_ANIME,
+    ID_USER,
+    SCOREUSER
+) VALUES (
+    2,
+    1,
+    9.0
+);

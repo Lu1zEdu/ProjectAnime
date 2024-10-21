@@ -1,8 +1,8 @@
-import Carousel1 from "@/Components/Carousel1/Carousel1";
 import Header1 from "@/Components/Header1/Header1";
 import Lista1 from "@/Components/Lista1/Lista1";
 
 export default function Home() {
+
   return (
     <div className="BodyHome">
       <header className="HeaderHome">
@@ -16,13 +16,13 @@ export default function Home() {
             </datalist>
           </div>
           <div className="InputA">
-            <input type="text" id="" />
+            <input type="text" id="Input" />
           </div>
         </div>
       </header>
       <main>
         <Lista1 />
-        <Carousel1 />
+        
       </main>
     </div>
   );
