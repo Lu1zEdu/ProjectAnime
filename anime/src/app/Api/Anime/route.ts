@@ -12,8 +12,10 @@ import { promises as fs } from "fs";
 //     return NextResponse.json(data)
 // }
 
+
+//Melhores Animes
 export async function GET() {
-    const file = await fs.readFile(process.cwd() + "/src/data/Anime/base.json" , "utf-8");
+    const file = await fs.readFile(process.cwd() + "/src/data/Anime/Base.json" , "utf-8");
     const animes = JSON.parse(file);
     return NextResponse.json(animes);
 }

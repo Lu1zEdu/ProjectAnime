@@ -4,14 +4,14 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-export default function Lista1() {
+export default function ListaMelhoresAnimes () {
     const router = useRouter();
     const [animes, setAnimes] = useState<Anime[]>([]); // Corrected state variable name
 
     useEffect(() => {
         const fetchAnimes = async () => {
             try {
-                const response = await fetch('http://localhost:3000/Api/animes');
+                const response = await fetch('http://localhost:3000/Api/Anime');
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }

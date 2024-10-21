@@ -1,5 +1,5 @@
 import Header1 from "@/Components/Header1/Header1";
-import Lista1 from "@/Components/Lista1/Lista1";
+import ListaMelhoresAnimes from "@/Components/MelhoresAnimesLista/MelhoresAnimesLista";
 
 export default function Home() {
 
@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </header>
       <main>
-        <Lista1 />
+        <ListaMelhoresAnimes />
         
       </main>
     </div>

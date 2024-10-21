@@ -4,7 +4,7 @@ import br.com.Api.WebApp.Enum.StatusUserEnum;
 
 import java.util.Date;
 
-public class User {
+public class Usuario {
     private int Id;
     private String NickName;
     private String Email;
@@ -12,7 +12,7 @@ public class User {
     private Date DtaNasc;
     private StatusUserEnum statusUser;
 
-    public User(String nickName, String email, String password, Date dtaNasc, StatusUserEnum statusUser) {
+    public Usuario(String nickName, String email, String password, Date dtaNasc, StatusUserEnum statusUser) {
         NickName = nickName;
         Email = email;
         Password = password;
