@@ -9,7 +9,7 @@ export default function Header1() {
             <nav className='ULi'>
                 <ul>
                     <li><Link href="/Manga">Mangas</Link></li>
-                    <li><Link href="/Anime">Anime</Link></li>
+                    <li><Link href="/anime">Anime</Link></li>
                     <li><Link href="/News">News</Link></li>
                 </ul>
             </nav>

@@ -1,14 +1,13 @@
-export type Anime = {
-    id: number;
-    Titulo: string;
-    ano: number;
-    genero: string[];
-    descricao: string;
-    Rank: number;
-    Score: number;
-    Your_Score: number;
-    Status: string;
-}
+export type AnimeProps = {
+    mal_id: number;
+    title: string;
+    synopsis: string;
+    year: number;
+    genres: { name: string }[];
+    score: number;
+    rank: number;
+    status: string;
+};
 
 export type AnimeData =  {
     animes: Anime[];
