@@ -7,10 +7,15 @@ export type AnimeProps = {
     score: number;
     rank: number;
     status: string;
+    images: {
+        jpg: {
+            image_url: string;
+        };
+    };
 };
 
 export type AnimeData =  {
-    animes: Anime[];
+    animes: AnimeProps[];
 }
 export type User = {
     id: number;
@@ -18,5 +23,5 @@ export type User = {
     Email: string;
     Password: string;
     DataNascimento: Date;
-    Animes: Anime[];
+    Animes: AnimeProps[];
 }
